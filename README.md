@@ -2,6 +2,13 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
+## Updated
+
+Forked from [keras-yolo3 by qqwweee](https://github.com/qqwweee/keras-yolo3)
+1. Change PIL library to OpenCV to handle the real-time video stream from camera.
+2. Use flask to setup a web based stream server, detects objects and resopnses to web browser.
+3. Setup yolov3 pre-trained weights and then start server with `python3 server.py`
+
 ## Introduction
 
 A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/YAD2K](https://github.com/allanzelener/YAD2K).
